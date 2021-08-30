@@ -1,0 +1,30 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+html,
+body {
+  height: 100%;
+  background-color: #2f3f52;
+  font-family: 'Poppins';
+  color: white;
+}
+
+.card {
+    background-color: #f5821f;
+}
+
+.form-text {
+    color: white!important;
+    text-align: center;
+}
+
+.form-control {
+    font-style: italic;
+}
+
+.form-label {
+    font-size: 25px;
+}
+
+#btn {
+    background-color: #00a3e7;
+}
+
