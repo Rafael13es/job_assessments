@@ -1,5 +1,3 @@
-# job_assessments
-
 ## Assessment 1
 Write a vue (preferred) or react component that lists the following in an unordered list:
 
