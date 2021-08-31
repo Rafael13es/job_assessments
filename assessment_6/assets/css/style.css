@@ -1,0 +1,53 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+
+:root{
+    --orange:#f5821f;
+    --blue:#00a3e7;
+    --deepgreen:#2f3f52;
+    --white: #ffffff;
+    --gap: 20px;
+    --font-size: 25px;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: var(--deepgreen);
+    font-family: 'Poppins';
+    color: var(--white);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--orange);
+
+}
+
+.form-text {
+    color: white !important;
+    text-align: center;
+}
+
+.form-control {
+    font-style: italic;
+}
+
+.form-label {
+    font-size: var(--font-size);
+}
+
+#btn {
+    background-color: var(--blue);
+}
+
+@media (max-width: 800px) {
+    .container {
+        justify-content: space-evenly;
+        grid-gap: var(--gap);
+        padding: var(--gap);
+    }
+}
